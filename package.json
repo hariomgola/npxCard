@@ -1,0 +1,43 @@
+{
+  "name": "hariom",
+  "version": "1.0.0",
+  "description": "A personal card for hariom gola (@hariomgola)",
+  "main": "card.js",
+  "bin": {
+    "hariom": "./card.js"
+  },
+  "scripts": {
+    "test": "node src/card.js",
+    "pub": "npm version major & npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariomgola/npx_card.git"
+  },
+  "author": "hariom gola <hi@hariomgola.com> (https://hariomgola.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hariomgola/npx_card/issues"
+  },
+  "homepage": "https://github.com/hariomgola/npx_card#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.0",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.6.1",
+    "inquirer": "^8.2.0",
+    "open": "^8.4.0",
+    "ora": "^6.0.1",
+    "request": "^2.88.2"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "node card",
+    "npm card",
+    "npx",
+    "npx card",
+    "npx bussiness card",
+    "bussiness card"
+  ]
+}
