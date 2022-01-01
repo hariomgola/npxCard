@@ -7,7 +7,8 @@
     "hariom": "./card.js"
   },
   "scripts": {
-    "test": "node src/card.js",
+    "test": "nodemon src/card.js",
+    "dev": "node src/card.js",
     "pub": "npm version major & npm publish"
   },
   "repository": {
@@ -21,13 +22,13 @@
   },
   "homepage": "https://github.com/hariomgola/npx_card#readme",
   "dependencies": {
-    "boxen": "^6.2.1",
-    "chalk": "^5.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
     "clear": "^0.1.0",
-    "cli-spinners": "^2.6.1",
-    "inquirer": "^8.2.0",
-    "open": "^8.4.0",
-    "ora": "^6.0.1",
+    "cli-spinners": "^2.5.0",
+    "inquirer": "^7.3.2",
+    "open": "^7.0.4",
+    "ora": "^5.1.0",
     "request": "^2.88.2"
   },
   "keywords": [
@@ -39,5 +40,8 @@
     "npx card",
     "npx bussiness card",
     "bussiness card"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
