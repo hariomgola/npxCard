@@ -1,6 +1,6 @@
 {
   "name": "hariom",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A personal card for hariom gola (@hariomgola)",
   "main": "card.js",
   "bin": {
