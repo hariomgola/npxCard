@@ -1,4 +1,4 @@
-# npx_card
+# npx Card
 This is my  NPX card for connecting with me in console or terminal.
 
 ## :heavy_heart_exclamation: Just Hit
