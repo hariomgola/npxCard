@@ -44,12 +44,11 @@ const questions = [
         name: `Download my ${chalk.magentaBright.bold("Resume")}?`,
         value: () => {
           console.log("\n Resume building will release in later version");
-          /*
           const loader = ora({
             text: " Downloading Resume",
             spinner: cliSpinners.material,
           }).start();
-          let pipe = request("https://resume-url").pipe(
+          let pipe = request("https://hariomgola.github.io/resume/").pipe(
             fs.createWriteStream("./hariom-kumar.html")
           );
           pipe.on("finish", function () {
@@ -58,7 +57,6 @@ const questions = [
             open(downloadPath);
             loader.stop();
           });
-          */
         },
       },
       {

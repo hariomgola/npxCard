@@ -7,8 +7,8 @@
     "hariom": "./card.js"
   },
   "scripts": {
-    "test": "nodemon src/card.js",
-    "dev": "node src/card.js",
+    "test": "nodemon card.js",
+    "dev": "node card.js",
     "pub": "npm version major & npm publish"
   },
   "repository": {
