@@ -29,9 +29,9 @@ const maindata = {
   work: `${chalk.white(`Software Engineer at `)} ${chalk
     .hex(companynameColor)
     .bold(data.company)}`,
-  twitter: `${chalk.grey(`https://twitter.com/`)} ${chalk.cyan(data.twitter)}`,
-  github: `${chalk.gray(`https://github.com/`)} ${chalk.cyan(data.github)}`,
-  linkedin: `${chalk.gray(`https://linkedin.com/in`)} ${chalk.cyan(
+  twitter: `${chalk.grey(`https://twitter.com/`)}${chalk.cyan(data.twitter)}`,
+  github: `${chalk.gray(`https://github.com/`)}${chalk.cyan(data.github)}`,
+  linkedin: `${chalk.gray(`https://linkedin.com/in/`)}${chalk.cyan(
     data.linkedin
   )}`,
   web: `${chalk.cyan(data.web)}`,
