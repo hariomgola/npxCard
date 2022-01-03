@@ -7,9 +7,10 @@
     "hariom": "./card.js"
   },
   "scripts": {
-    "test": "nodemon card.js",
-    "dev": "node card.js",
-    "pub": "npm version major & npm publish"
+    "start": "node card.js",
+    "test": "node card.js",
+    "dev": "nodemon card.js",
+    "pub": "npm version minor & npm publish"
   },
   "repository": {
     "type": "git",
